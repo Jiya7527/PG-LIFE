@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - PG Rent Services</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .testimonials {
+            background: url('./images/header-background.jpg') no-repeat center center/cover;
+            color: #fff;
+            padding: 60px 20px;
+        }
+
+        .testimonials .section-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #f5ba47; /* Highlighted Title Color */
+            text-align: center;
+            margin-bottom: 50px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .testimonial-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .testimonial-card {
+            background: #ffffff;
+            color: #333;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: center;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .testimonial-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 3px solid #f5ba47;
+        }
+
+        .author-name {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">JIYA</div>
+            <ul class="nav-list">
+                <li><a href="testimonials.html" class="list-item">Testimonials</a></li>
+                <li><a href="about.html" class="list-item">About Us</a></li>
+                <li><a href="contact.html" class="list-item contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-container">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "PG Rent Services made finding a PG so easy. The staff is very professional, and I found a home that fits my budget perfectly!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="./images/user1.jpeg" alt="User 1" class="testimonial-img">
+                        <p class="author-name">Ananya Singh</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "Thanks to Jiya's team, I found the perfect residence near my workplace. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="./images/user2.jpeg" alt="User 2" class="testimonial-img">
+                        <p class="author-name">Rohan Sharma</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <p class="testimonial-text">
+                        "Affordable and reliable service! I love the PG I am staying in. It’s spacious and well-maintained."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="./images/user3.jpeg" alt="User 3" class="testimonial-img">
+                        <p class="author-name">Priya Kapoor</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./app.js"></script>
+</body>
+</html>
